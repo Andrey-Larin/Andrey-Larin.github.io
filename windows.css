@@ -1,0 +1,22 @@
+body {
+    background-image: url(/images/winda.jpg);
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+
+.foto img {
+    height: 50px;
+}
+
+.text {
+    color: white;
+    
+}
+
+#aaa {
+    text-decoration: none;
+}
+
+.file-1 {
+    margin-top: 10px;
+}

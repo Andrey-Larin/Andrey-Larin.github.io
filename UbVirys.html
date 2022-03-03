@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Антивирус</title>
+</head>
+
+<body>
+
+    <style>
+        body {
+            background-color: darkgreen;
+            text-align: center;
+        }
+    </style>
+
+    <h1>Антивирус актевирован!</h1>
+    <h2>Можете возвращаться в систему!</h2>
+
+
+
+    <script>
+        window.onload = function () {
+            var ant = 1;
+
+            var serialAnt = JSON.stringify(ant); //сериализуем его в строчку
+
+            localStorage.setItem("Ant", serialAnt); //запишем его в хранилище по ключу "myKey"
+
+        }
+ 
+    </script>
+
+
+
+</body>
+
+</html>

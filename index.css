@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(0, 81, 255);
+}
+
+
+.login {
+    text-align: center;
+    margin-top: 200px;
+    
+}
+
+.foto img {
+    border-radius: 500%;
+    height: 300px;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.466);
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#aaa {
+    text-decoration: none;
+}
